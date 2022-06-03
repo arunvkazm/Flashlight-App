@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#353F7A"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/flashlight"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/lightoff"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAB00"
+        android:textColor="#585858"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+</LinearLayout>

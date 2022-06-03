@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="turn_on_flash">Turn on flash</string>
+    <string name="todo">TODO</string>
+    <string name="turnon">Turn on</string>
+    <string name="turnoff">Turn off</string>
+</resources>
